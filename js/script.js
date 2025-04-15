@@ -1,11 +1,12 @@
 console.log("Hello, Mates!");
-
+let des= "গরু একটি গৃহপালিত পশু। গরুর মাংস মানুষ আহরণ করে। গরুর চামড়া দিয়ে জুতা তৈরি হয়। গরুর গোবর দিয়ে সার তৈরি হয়। গরু আমাদের অনেক উপকারে আসে। গরু আমাদের বন্ধু।";
+console.log(des);
 
 let manush = {
-  name: "AR",
+  name: "`AR",
   age: 99,
   add: "Uganda",
-  isSingle: true,
+  Single: true,
 };
 console.log(manush);
 
