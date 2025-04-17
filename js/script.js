@@ -33,7 +33,7 @@ console.log("Kazi office lte-");
 if (gender == "Male") {
   if (age >= 30) {
     if (salary >= 100000) {
-      console.log("Ibe confirme partyy..Biyee kore felen");
+      console.log("Ibe confirme partyy..Biyee hoibo");
     } else {
       console.log("Paisaa kam hae re baba");
     }
