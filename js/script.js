@@ -26,6 +26,8 @@ console.log(num + " " + "X" + " " + 8 + " " + "=" + " " + num * 8);
 console.log(num + " " + "X" + " " + 9 + " " + "=" + " " + num * 9);
 console.log(num + " " + "X" + " " + 10 + " " + "=" + " " + num * 10);
 
+// ___________________________________________________
+
 // How a filter function works when we search for a specific value
 let gender = "Male";
 let age = 30;
@@ -67,3 +69,44 @@ if (mark < 0 || mark > 100) {
 } else if (mark >= 80 && mark <= 100) {
   console.log('You have got "A+"');
 }
+
+// ___________________________________________________
+let agee = 30;
+if (agee >= 1 && agee <= 18) {
+  console.log("You are a child");
+}
+
+// For loop
+let num1 = 20;
+
+for (let i = 1; i < 11; i++) {
+  console.log(13 + " " + "X" + " " + i + " " + "=" + " " + i * 13);
+}
+
+for (let i = 1; i <= 30; i++) {
+  console.log(num1 + "" + "X" + "" + i + "" + "=" + " " + i * 20);
+}
+
+let members = ["Sabbir", "Tawhid", "Ayesha", "Al-Amin Sir", "Gomes"];
+console.log(members[3]);
+
+// Object
+
+let member_list = {
+  miftah: {
+    name: "Miftah ul haq",
+    area: "Dhaka",
+    passion: "Web Developer",
+  },
+  rakib: {
+    name: "Miftah ul haq",
+    area: "Dhaka",
+    passion: "Web Developer",
+  },
+  mira: {
+    name: "Mira",
+    area: "Dhaka",
+    passion: "Web Developer",
+  },
+};
+console.log(member_list.mira);
