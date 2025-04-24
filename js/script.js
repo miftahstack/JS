@@ -26,7 +26,7 @@ console.log(num + " " + "X" + " " + 8 + " " + "=" + " " + num * 8);
 console.log(num + " " + "X" + " " + 9 + " " + "=" + " " + num * 9);
 console.log(num + " " + "X" + " " + 10 + " " + "=" + " " + num * 10);
 
-// ___________________________________________________
+// =====================================================================================
 
 // How a filter function works when we search for a specific value
 let gender = "Male";
@@ -47,6 +47,7 @@ if (gender == "Male") {
 } else {
   console.log("Foya laigbo!");
 }
+// =====================================================================================
 
 // Marksheet
 
@@ -70,7 +71,7 @@ if (mark < 0 || mark > 100) {
   console.log('You have got "A+"');
 }
 
-// ___________________________________________________
+// =====================================================================================
 let agee = 30;
 if (agee >= 1 && agee <= 18) {
   console.log("You are a child");
@@ -94,19 +95,75 @@ console.log(members[3]);
 
 let member_list = {
   miftah: {
-    name: "Miftah ul haq",
+    name: "Miftah Ul Haq",
     area: "Dhaka",
     passion: "Web Developer",
   },
   rakib: {
-    name: "Miftah ul haq",
-    area: "Dhaka",
-    passion: "Web Developer",
+    name: "Rakib",
+    area: "Sylhet",
+    passion: "UX/UI Designer",
   },
   mira: {
     name: "Mira",
-    area: "Dhaka",
-    passion: "Web Developer",
+    area: "Chittagong",
+    passion: "Cyber Security Expert",
   },
 };
 console.log(member_list.mira);
+
+// =====================================================================================
+// Function
+
+let value = "This is a test string";
+console.log(` Hello World, ${value}`);
+
+function operation() {
+  function math() {
+    let C = 18;
+    let D = 99;
+    console.log(D - C);
+  }
+  math();
+
+  function math_two() {
+    let C = 28;
+    let D = 99;
+    console.log(C + D);
+  }
+  math_two();
+  console.log(math * math_two);
+}
+operation();
+
+// Loop + Function
+
+let humans = [
+  "Ayon Vaiya",
+  "Gomes Vaiya",
+  "Al-Amin Sir",
+  "Ayesha Unty",
+  "Tawhid Vaiya",
+];
+
+function loop() {
+  for (let i = 0; i < humans.length; i++) {
+    console.log("Tumi", humans[i]);
+  }
+}
+loop();
+
+// Map
+console.log("THIS IS A MAP FUNCTION : ");
+
+let মানুষ = [
+  "Sabbir Vaiya",
+  "Sadia Mam",
+  "Al-Amin Sir",
+  "Motasim Vaiya",
+  "Rakib Vaiya",
+];
+
+মানুষ.map((Pookie) => {
+  console.log(Pookie);
+});
