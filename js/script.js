@@ -167,3 +167,17 @@ let মানুষ = [
 মানুষ.map((Pookie) => {
   console.log(Pookie);
 });
+
+// =====================================================================================
+
+let xy = 20
+
+if (xy >= 25) {
+  console.log("This is s a great number");
+
+}
+
+else{
+  console.log("Not a good number");
+
+}
