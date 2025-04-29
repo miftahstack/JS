@@ -170,14 +170,55 @@ let মানুষ = [
 
 // =====================================================================================
 
-let xy = 20
+let x = 17
 
-if (xy >= 25) {
+if (x >= 25) {
   console.log("This is s a great number");
 
 }
-
-else{
+else {
   console.log("Not a good number");
 
 }
+
+// condition ? true : false
+x > 25 ? console.log("Goodd!!!") : console.log("badd!!!");
+
+
+// Split String("") based 
+let m = "AR"
+console.log(m.split(""));
+
+let n = "My Name Is AR"
+console.log(n.split(" "));
+
+let o = "My name is #AR"
+console.log(o.split("#"));
+
+let p = "My name is-AR"
+console.log(p.split("-"));
+
+let q = "Hello Crazzy peoples"
+console.log(q.split(" ")[1]);
+
+let r = "My name is AR Athex"
+console.log(r.toUpperCase(""));
+
+let s = "My name is AR Athex"
+console.log(s.toLowerCase(""));
+
+// DOM Manupulation 
+
+let test_heading = document.querySelector("h1")
+let test_para = document.querySelector("p")
+let test_button = document.querySelector("button") 
+let test_body = document.querySelector("body") 
+
+
+test_button.addEventListener("click", function () {
+  test_heading.style.background = "#c1121f"
+  test_heading.style.color = "#e5e5e5"
+  test_button.style.background = "#c1121f"
+  test_button.style.color = "#e5e5e5"
+  test_body.style.background = "#fefae0"
+})
